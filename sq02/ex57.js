@@ -23,7 +23,7 @@ desconto15 = totalBruto * 15/100
 
 totalLiquido = totalBruto - (desconto10 + desconto15) + multa
 
-alert("Numero de dias: " + dias + "\nValor por diaria: R$" + valorDiaria + "\nTotal bruto: R$" + totalBruto + "\nDesconto especial: R$" + desconto10 + "\nDesconto convenio: R$" + desconto15 + "\nMulta: R$" + multa + "\n===========" + "\nTotal a pagar: R$" + totalLiquido)
+alert("Numero de dias: " + dias + "\nValor por diaria: R$" + valorDiaria.toFixed(2) + "\nTotal bruto: R$" + totalBruto.toFixed(2) + "\nDesconto especial: R$" + desconto10.toFixed(2) + "\nDesconto convenio: R$" + desconto15.toFixed(2) + "\nMulta: R$" + multa.toFixed(2) + "\n===========" + "\nTotal a pagar: R$" + totalLiquido.toFixed(2).replace(".",","))
 
 
 
